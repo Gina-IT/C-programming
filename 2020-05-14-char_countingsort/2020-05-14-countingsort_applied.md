@@ -1,12 +1,8 @@
----
-title: Counting sort 응용 문제
-author: Gina Sim
-layout: post
-category: Cprogramming  
----
+## Character Counting Sort
 
-문제  
-------  
+
+## 문제    
+
 *n개의 영문 대소문자로만 구성된 배열 A[0..n-1]를 counting sorting하여 배열 B[0..n-1]를 생성하는 char_counting_sort 함수를 구현하시오. 이 때 return 값은 A[0] 원소가 놓여지는 배열 B에서의 index 값 k이다. (0≤ k ≤ n−1).*  
 
 **제약 조건**  
@@ -20,14 +16,14 @@ category: Cprogramming
 
 ----------
 
-## Pseudocode  
+### Pseudocode  
 
 **< Counting sort >**  
 <img src="/2020-05-14-char_countingsort/_img/counting_sort_pseudocode.JPG" alt="Counting sort pseudocode">  
 
 ----------
 
-## Code  
+### Code  
 
 **< main 함수 >**  
 ```c
@@ -115,6 +111,6 @@ void num_to_alphabet(char B[], int n) {   //출력하기 위해 다시 숫자를
 
 ------------
 
-## Result  
+### Result  
 
 <img src= "/2020-05-14-char_countingsort/_img/counting_sort_result.JPG" alt="Character counting sort result">
