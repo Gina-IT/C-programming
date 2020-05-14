@@ -23,7 +23,7 @@ category: Cprogramming
 ## Pseudocode  
 
 **< Counting sort >**  
-<img src="/_img/counting_sort_pseudocode.JPG" alt="Counting sort pseudocode">  
+<img src="/2020-05-14-char_countingsort/_img/counting_sort_pseudocode.JPG" alt="Counting sort pseudocode">  
 
 ----------
 
@@ -117,4 +117,4 @@ void num_to_alphabet(char B[], int n) {   //출력하기 위해 다시 숫자를
 
 ## Result  
 
-<img src= "/_img/counting_sort_result.JPG" alt="Character counting sort result">
+<img src= "/2020-05-14-char_countingsort/_img/counting_sort_result.JPG" alt="Character counting sort result">
