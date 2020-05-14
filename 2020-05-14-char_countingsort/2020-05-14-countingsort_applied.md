@@ -1,11 +1,11 @@
 ## Character Counting Sort
 
 
-## 문제    
+### 문제    
 
 *n개의 영문 대소문자로만 구성된 배열 A[0..n-1]를 counting sorting하여 배열 B[0..n-1]를 생성하는 char_counting_sort 함수를 구현하시오. 이 때 return 값은 A[0] 원소가 놓여지는 배열 B에서의 index 값 k이다. (0≤ k ≤ n−1).*  
 
-**제약 조건**  
+**참고**  
 - 함수의 prototype은 다음과 같다.    
 	int char_counting_sort(char A[], char B[], int n);  
 	A : 입력 배열  
