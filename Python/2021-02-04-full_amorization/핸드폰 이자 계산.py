@@ -3,7 +3,7 @@ print('핸드폰 할부 이자 계산 프로그램입니다.\n프로그램 이�
 
 # 단말기 할부 원금 입력받기
 fee = input('단말기 원금: ')        # input으로 입력받으면 자료형이 문자형임
-while not fee.isdecimal():     # 단말기 원금이 정수가 아니면 다시 입력 받음
+while not fee.isdecimal():     # 단말기 원금이 숫자가 아니면 다시 입력 받음
     print('금액이 정확하지 않습니다.')      
     fee= input('단말기 원금: ')
 print(fee)
