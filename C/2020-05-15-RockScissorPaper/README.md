@@ -73,4 +73,4 @@ int main()
 
 ### Result  
 
-<img src= "/2020-05-15-RockScissorPaper/_img/result.JPG" alt="Rock Sicssor Paper game play">
+<img src= "/C/2020-05-15-RockScissorPaper/_img/result.JPG" alt="Rock Sicssor Paper game play">

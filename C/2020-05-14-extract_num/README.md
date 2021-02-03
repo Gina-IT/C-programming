@@ -61,4 +61,4 @@ int main()
 ### Result  
 
   
-<img src= "/2020-05-14-extract_num/_img/extractnum_result.JPG" alt="Extract number from characters_result">
+<img src= "/C/2020-05-14-extract_num/_img/extractnum_result.JPG" alt="Extract number from characters_result">
