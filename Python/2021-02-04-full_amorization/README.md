@@ -38,10 +38,11 @@
 ### 값 입력받기
 
 **참고**  
-▶ input으로 값을 입력받으면 문자형으로 자료형이 저장되기 때문에, 나중에 값을 계산하기 위해서는 int()나 float()을 이용하여 정수형이나 실수형으로 변환해주어야 함  
+▶ input으로 값을 입력받으면 문자형으로 자료형이 저장되기 때문에,  
+나중에 값을 계산하기 위해서는 int()나 float()을 이용하여 정수형이나 실수형으로 변환해주어야 함  
 ▶ 변환된 자료형으로 변수를 저장하기 위해, 변환한 자료형을 해당 변수에 다시 저장해야함 (ex. a= int(a))  
 ▶ 값이 잘못 입력되면 제대로 입력될 때 까지 다시 입력받아야 하므로 while문을 이용하여 핸들링  
-  
+<br/>
 1. 단말기 할부 원금 
 ```python
 fee = input('단말기 원금: ')   
@@ -53,7 +54,7 @@ print(fee)
 
 fee= int(fee)        
 ```
-  
+<br/>
 2. 할부 이자율(%)
 ```python
 interest_percentage = input('연이율(%): ')
@@ -69,7 +70,7 @@ print(interest_percentage)
 interest_percentage= float(interest_percentage)
 interest_y= interest_percentage/100		# %로 입력받은 값을 계산에 이용하기 위해 100으로 나누어 줌
 ```
-  
+<br/>
 3. 할부 개월 수
 ```python
 months = input('할부 개월: ')
@@ -81,7 +82,7 @@ print(months)
 
 months= int(months)     # 계산을 위해 int형으로 바꿔줌
 ```
-  
+<br/>
 4. 요금 정보를 알고싶은 기간 
 ```python
 date =  input('알고 싶은 기간(없을 경우 0 입력): ')
@@ -149,4 +150,4 @@ print('총 할부이자: ', sum_interest, '총 납입금액: ', bill_total)
   
 ### Result
 
-<img src="/2021-02-04-full_amorization/_img/result.png">  
+<img src="/Python/2021-02-04-full_amorization/_img/result.png">  
